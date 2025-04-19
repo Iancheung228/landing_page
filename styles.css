@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: rgb(34, 2, 2);
+}
+
+/* Header container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px; /* top/bottom, left/right padding */
+  background-color: #0d42a49b;
+}
+
+/* Logo style */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Nav links */
+.nav-links {
+  display: flex;
+  gap: 20px; /* spacing between links */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #e6d7d7;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+.block1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px; /* top/bottom, left/right padding */
+  background-color: #179049;
+}
+
+
+.left{
+  font-size: 16px;
+  flex: 0 0 50%;  /* Takes up 50% of the container width */
+  align-items: center;
+  /* margin-right: 20px; */
+}
+.signup-btn {
+  padding: 10px 20px;         /* Adds space inside the button */
+  font-size: 16px;            /* Sets the font size */
+  background-color: #007bff;  /* Sets the background color */
+  color: white;               /* Sets the text color */
+  border: none;               /* Removes the border */
+  border-radius: 5px;         /* Rounds the corners */
+  cursor: pointer;           /* Changes the cursor to a pointer when hovering */
+  transition: background-color 0.3s;  /* Adds a smooth transition on hover */
+}
+
+.signup-btn:hover {
+  background-color: #0056b3;  /* Changes background color when hovering */
+}
+
+.img-coll{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 225px; /* top/bottom, left/right padding */
+  background-color: #ffffff;
+}
+
+.img-coll {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* space between items */
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: rgb(30, 27, 27); /* or any color you prefer */
+}
